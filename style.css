@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.watchme{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    border-color: white;
+    width: 200px;
+    height: 60px;
+
+}
+.watchme:hover{
+    border: 1px solid black;
+    color: black;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+}
+.newsire{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 130px;
+    background-color: black;
+}
+.viewAll{
+    background-color: black;
+    height: 200PX;
+    display: flex;
+    justify-content: center;
+}
+.viewAll a{
+    color: white;
+}
+.viewAll a:hover{
+    color: #ffc107;
+
+}
+.viewMore{
+    display: flex;
+    justify-content: center;
+}
+.viewMore h2{
+    color: white;
+}
+.viewMore h2:hover{
+    color: #ffc107;
+}
+@media screen and (max-width:768px) {
+    .games{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
+} 
+    
